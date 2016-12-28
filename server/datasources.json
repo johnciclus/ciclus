@@ -2,5 +2,11 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mongo": {
+    "host": "localhost",
+    "database": "Ciclus",
+    "name": "mongo",
+    "connector": "mongodb"
   }
 }

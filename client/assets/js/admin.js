@@ -1,7 +1,3 @@
-var username = window.localStorage.getItem('posters_galore_login');
-if (!username) {
-  window.location.href = "./login.html";
-}
 var myApp = angular.module('myApp', ['ng-admin']);
 myApp.config(['NgAdminConfigurationProvider', function(NgAdminConfigurationProvider) {
   var nga = NgAdminConfigurationProvider;
